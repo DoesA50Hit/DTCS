@@ -1,0 +1,5 @@
+local DoesTurnCombatSystem = {}
+
+
+
+return DoesTurnCombatSystem

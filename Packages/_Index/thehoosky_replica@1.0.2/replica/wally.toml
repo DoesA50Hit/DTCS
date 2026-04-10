@@ -1,0 +1,12 @@
+[package]
+name = "thehoosky/replica"
+description = "loleris replica"
+license = "Apache 2.0"
+authors = ["loleris"]
+version = "1.0.2"
+registry = "https://github.com/UpliftGames/wally-index"
+realm = "shared"
+include = ["src", "wally.toml"]
+exclude = ["aftman.toml"]
+
+[dependencies]

@@ -5,7 +5,17 @@
 
     "ReplicatedStorage": {
       "Shared": {
-        "$path": "src/shared"
+        "$className": "Folder",
+        "DTCS": {
+          "$path": "src/shared/DTCS",
+          "Packages": {
+            "$path": "Packages"
+          }
+        }
+      },
+      
+      "DTCS_Tests": {
+        "$path": "DTCS_Tests"
       }
     },
 

@@ -1,4 +1,4 @@
-# DTCS — DoesA50Hit's Turn Combat System
+# DTCS - DoesA50Hit's Turn Combat System
 
 > **Work in Progress** Core architecture is being established. Move execution, passives, and status effects are not yet implemented.
 
@@ -11,22 +11,22 @@ DTCS is a Roblox turn based combat framework built with Luau, designed around a 
 ```
 src/
 ├── server/         # Server entry point (init.server.luau)
-├── client/         # Client entry point (init.client.luau) — stub
+├── client/         # Client entry point (init.client.luau) - stub
 └── shared/
     └── DTCS/ 
-        ├── init.luau               # Main module — createServer / createClient
+        ├── init.luau               # Main module - createServer / createClient
         ├── classes/
         │   ├── move.luau           # Move class
         │   ├── character.luau      # Character class
-        │   └── combat.luau         # Combat class — stub
+        │   └── combat.luau         # Combat class - stub
         └── utils/
             ├── export_types.luau   # Shared Luau type definitions
             └── logger.luau         # Internal warn logger
 
 DTCS_Tests/
 ├── Moves/          # test_move.luau
-├── Passives/       # test_passive.luau — empty
-└── StatusEffects/  # test_statusEffect.luau — empty
+├── Passives/       # test_passive.luau - empty
+└── StatusEffects/  # test_statusEffect.luau - empty
 ```
 
 ---
@@ -71,10 +71,10 @@ local move = dtcs.Moves.new("FireBall")
 -- move.owner         -> nil (set when attached to a Character)
 ```
 
-**Planned methods** (stubs — not yet implemented):
-- `move:use(data)` — unified entry point
-- `move:triggerServer(data)` — server-side logic
-- `move:triggerClient(data)` — client-side logic / effects
+**Planned methods** (stubs - not yet implemented):
+- `move:use(data)` - unified entry point
+- `move:triggerServer(data)` - server-side logic
+- `move:triggerClient(data)` - client-side logic / effects
 
 ### Character
 
